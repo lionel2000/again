@@ -8,7 +8,9 @@
   </head>
   
   <body>
-     
+     <input type="button" value="隐藏" id = "toggle_messages"/>
+     <div id="message">开始学习jquery 一路顺风</div>
+     <div id="nice" onclick="$(this).hide()">lionel</div>
      <script type="text/javascript" src="../js/jquery-1.7.js"></script>
      <script type="text/javascript" src="inc.js"></script>
   </body>
